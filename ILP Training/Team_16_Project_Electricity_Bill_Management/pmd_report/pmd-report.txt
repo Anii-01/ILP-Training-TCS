@@ -1,0 +1,344 @@
+src/com/bill/billconsumer.java:2:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.*'
+src/com/bill/billconsumer.java:4:	ClassNamingConventions:	ClassNamingConventions: The class name 'billconsumer' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:4:	CommentRequired:	CommentRequired: Class comments are required
+src/com/bill/billconsumer.java:4:	DataClass:	DataClass: The class 'billconsumer' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=10)
+src/com/bill/billconsumer.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/com/bill/billconsumer.java:5:	FieldNamingConventions:	FieldNamingConventions: The field name 'consumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/bill/billconsumer.java:6:	FieldNamingConventions:	FieldNamingConventions: The field name 'bill_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/com/bill/billconsumer.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/bill/billconsumer.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/bill/billconsumer.java:9:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'bill_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:9:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/com/bill/billconsumer.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill_id' is not assigned and could be declared final
+src/com/bill/billconsumer.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumer_id' is not assigned and could be declared final
+src/com/bill/billconsumer.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/com/bill/billconsumer.java:16:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getConsumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:19:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumer_id' is not assigned and could be declared final
+src/com/bill/billconsumer.java:19:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setConsumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:22:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getBill_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:25:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'bill_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill_id' is not assigned and could be declared final
+src/com/bill/billconsumer.java:25:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setBill_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/bill/billconsumer.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/com/bill/billconsumer.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/com/bill/billconsumer.java:40:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/com/complaints/Complaints.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/com/complaints/Complaints.java:3:	DataClass:	DataClass: The class 'Complaints' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+src/com/complaints/Complaints.java:4:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'complaintType'
+src/com/complaints/Complaints.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:5:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'category'
+src/com/complaints/Complaints.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:6:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'contactPerson'
+src/com/complaints/Complaints.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:7:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'landmark'
+src/com/complaints/Complaints.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:8:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'consumerNo'
+src/com/complaints/Complaints.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:9:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'problemDescription'
+src/com/complaints/Complaints.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:9:	LongVariable:	LongVariable: Avoid excessively long variable names like problemDescription
+src/com/complaints/Complaints.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'mobileNo'
+src/com/complaints/Complaints.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:11:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'address'
+src/com/complaints/Complaints.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/com/complaints/Complaints.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/complaints/Complaints.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/com/complaints/Complaints.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'complaintType' is not assigned and could be declared final
+src/com/complaints/Complaints.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumerNo' is not assigned and could be declared final
+src/com/complaints/Complaints.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactPerson' is not assigned and could be declared final
+src/com/complaints/Complaints.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'landmark' is not assigned and could be declared final
+src/com/complaints/Complaints.java:13:	LongVariable:	LongVariable: Avoid excessively long variable names like problemDescription
+src/com/complaints/Complaints.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'address' is not assigned and could be declared final
+src/com/complaints/Complaints.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mobileNo' is not assigned and could be declared final
+src/com/complaints/Complaints.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'problemDescription' is not assigned and could be declared final
+src/com/complaints/Complaints.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'complaintType' is not assigned and could be declared final
+src/com/complaints/Complaints.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/com/complaints/Complaints.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'contactPerson' is not assigned and could be declared final
+src/com/complaints/Complaints.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'landmark' is not assigned and could be declared final
+src/com/complaints/Complaints.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumerNo' is not assigned and could be declared final
+src/com/complaints/Complaints.java:57:	LongVariable:	LongVariable: Avoid excessively long variable names like problemDescription
+src/com/complaints/Complaints.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'problemDescription' is not assigned and could be declared final
+src/com/complaints/Complaints.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mobileNo' is not assigned and could be declared final
+src/com/complaints/Complaints.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'address' is not assigned and could be declared final
+src/com/complaintserv/complain.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.*'
+src/com/complaintserv/complain.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.servlet.annotation.*'
+src/com/complaintserv/complain.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.servlet.RequestDispatcher'
+src/com/complaintserv/complain.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.sql.*'
+src/com/complaintserv/complain.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.customerinfo.customer'
+src/com/complaintserv/complain.java:17:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/complaintserv/complain.java:17:	ClassNamingConventions:	ClassNamingConventions: The class name 'complain' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/complaintserv/complain.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/com/complaintserv/complain.java:18:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/complaintserv/complain.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'req' is not assigned and could be declared final
+src/com/complaintserv/complain.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'resp' is not assigned and could be declared final
+src/com/complaintserv/complain.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'complaintType' could be declared final
+src/com/complaintserv/complain.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'category' could be declared final
+src/com/complaintserv/complain.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'contactPerson' could be declared final
+src/com/complaintserv/complain.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'landmark' could be declared final
+src/com/complaintserv/complain.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'consumerNo' could be declared final
+src/com/complaintserv/complain.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'problemDescription' could be declared final
+src/com/complaintserv/complain.java:24:	LongVariable:	LongVariable: Avoid excessively long variable names like problemDescription
+src/com/complaintserv/complain.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mobileNo' could be declared final
+src/com/complaintserv/complain.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'address' could be declared final
+src/com/complaintserv/complain.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'com' could be declared final
+src/com/complaintserv/complain.java:29:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/complaintserv/complain.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'inserted' could be declared final
+src/com/complaintserv/complain.java:32:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/complaintserv/complain.java:38:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/complaintserv/complain.java:41:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/complaintserv/complain.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/customerinfo/customer.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'customer' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/com/customerinfo/customer.java:3:	DataClass:	DataClass: The class 'customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+src/com/customerinfo/customer.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:4:	FieldNamingConventions:	FieldNamingConventions: The field name 'Consumer_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:5:	FieldNamingConventions:	FieldNamingConventions: The field name 'Bill_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:6:	FieldNamingConventions:	FieldNamingConventions: The field name 'Title' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:7:	FieldNamingConventions:	FieldNamingConventions: The field name 'Customer_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:8:	FieldNamingConventions:	FieldNamingConventions: The field name 'Email' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:9:	FieldNamingConventions:	FieldNamingConventions: The field name 'Mobile_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:10:	FieldNamingConventions:	FieldNamingConventions: The field name 'User_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/com/customerinfo/customer.java:11:	FieldNamingConventions:	FieldNamingConventions: The field name 'Password' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerinfo/customer.java:15:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'bill_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:15:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumer_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:15:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'customer_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill_Number' is not assigned and could be declared final
+src/com/customerinfo/customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumer_Id' is not assigned and could be declared final
+src/com/customerinfo/customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer_Name' is not assigned and could be declared final
+src/com/customerinfo/customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/customerinfo/customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/com/customerinfo/customer.java:16:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'mobile_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:16:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'user_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mobile_Number' is not assigned and could be declared final
+src/com/customerinfo/customer.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/customerinfo/customer.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user_Id' is not assigned and could be declared final
+src/com/customerinfo/customer.java:32:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getConsumer_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:38:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumer_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumer_Id' is not assigned and could be declared final
+src/com/customerinfo/customer.java:38:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setConsumer_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:44:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getBill_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:50:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'bill_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill_Number' is not assigned and could be declared final
+src/com/customerinfo/customer.java:50:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setBill_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/com/customerinfo/customer.java:68:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getCustomer_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:74:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'customer_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer_Name' is not assigned and could be declared final
+src/com/customerinfo/customer.java:74:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setCustomer_Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:86:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/customerinfo/customer.java:92:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getMobile_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:98:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'mobile_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:98:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mobile_Number' is not assigned and could be declared final
+src/com/customerinfo/customer.java:98:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setMobile_Number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:104:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getUser_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:110:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'user_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:110:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user_Id' is not assigned and could be declared final
+src/com/customerinfo/customer.java:110:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setUser_Id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/customerinfo/customer.java:122:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:8:	ClassNamingConventions:	ClassNamingConventions: The utility class name 'daoservice' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/customerservice/daoservice.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/com/customerservice/daoservice.java:8:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/com/customerservice/daoservice.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customerinfo' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:22:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/customerservice/daoservice.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumerid' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/com/customerservice/daoservice.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like s
+src/com/customerservice/daoservice.java:26:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/com/customerservice/daoservice.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/customerservice/daoservice.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'complaint' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.sql.Connection'
+src/com/dbaseoperations/dao.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.sql.Statement'
+src/com/dbaseoperations/dao.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/dbaseoperations/dao.java:13:	ClassNamingConventions:	ClassNamingConventions: The class name 'dao' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/dbaseoperations/dao.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/com/dbaseoperations/dao.java:13:	ShortClassName:	ShortClassName: Avoid short class names like dao
+src/com/dbaseoperations/dao.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customerInfo' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:18:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'noOfRowsAffected' could be declared final
+src/com/dbaseoperations/dao.java:32:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/com/dbaseoperations/dao.java:33:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/dbaseoperations/dao.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:45:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:48:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/com/dbaseoperations/dao.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/dbaseoperations/dao.java:48:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/dbaseoperations/dao.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:58:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:61:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/com/dbaseoperations/dao.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/dbaseoperations/dao.java:61:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/dbaseoperations/dao.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:68:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:68:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:71:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:74:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/com/dbaseoperations/dao.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/dbaseoperations/dao.java:74:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/dbaseoperations/dao.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:81:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/dbaseoperations/dao.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumerid' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/com/dbaseoperations/dao.java:83:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/dbaseoperations/dao.java:83:	ShortVariable:	ShortVariable: Avoid variables with short names like a
+src/com/dbaseoperations/dao.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:85:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:87:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/com/dbaseoperations/dao.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/dbaseoperations/dao.java:87:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/dbaseoperations/dao.java:90:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/com/dbaseoperations/dao.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/com/dbaseoperations/dao.java:90:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/com/dbaseoperations/dao.java:95:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:95:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:95:	ShortVariable:	ShortVariable: Avoid variables with short names like s
+src/com/dbaseoperations/dao.java:95:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/com/dbaseoperations/dao.java:105:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'preparedStatement' could be declared final
+src/com/dbaseoperations/dao.java:110:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 're' could be declared final
+src/com/dbaseoperations/dao.java:110:	ShortVariable:	ShortVariable: Avoid variables with short names like re
+src/com/dbaseoperations/dao.java:111:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/com/dbaseoperations/dao.java:111:	SimplifyBooleanReturns:	SimplifyBooleanReturns: This if statement can be replaced by `return {condition};`
+src/com/dbaseoperations/dao.java:113:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/dbaseoperations/dao.java:121:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'str'
+src/com/dbaseoperations/dao.java:121:	CommentRequired:	CommentRequired: Field comments are required
+src/com/dbaseoperations/dao.java:121:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/dbaseoperations/dao.java:122:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:123:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/com/dbaseoperations/dao.java:126:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/dbaseoperations/dao.java:126:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'complaint' is not assigned and could be declared final
+src/com/dbaseoperations/dao.java:127:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'successCount' is never used (overwritten on line 144)
+src/com/dbaseoperations/dao.java:128:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/com/dbaseoperations/dao.java:129:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/com/dbaseoperations/dao.java:132:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/com/dbaseoperations/dao.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/com/dbaseoperations/dao.java:132:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/com/deactivate/deactivateAccountServlet.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/deactivate/deactivateAccountServlet.java:12:	ClassNamingConventions:	ClassNamingConventions: The class name 'deactivateAccountServlet' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/deactivate/deactivateAccountServlet.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/com/deactivate/deactivateAccountServlet.java:13:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/deactivate/deactivateAccountServlet.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/com/deactivate/deactivateAccountServlet.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/com/deactivate/deactivateAccountServlet.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'consumerId' could be declared final
+src/com/deactivate/deactivateAccountServlet.java:17:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dao' could be declared final
+src/com/deactivate/deactivateAccountServlet.java:20:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/deactivate/deactivateAccountServlet.java:21:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/helpher/helpdbms.java:7:	ClassNamingConventions:	ClassNamingConventions: The utility class name 'helpdbms' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/helpher/helpdbms.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/com/helpher/helpdbms.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/com/helpher/helpdbms.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/helpher/helpdbms.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/com/helpher/helpdbms.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/com/helpher/helpdbms.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/helpher/helpdbms.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sql' is not assigned and could be declared final
+src/com/helpher/helpdbms.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/loginuser/login.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.servlet.annotation.*'
+src/com/loginuser/login.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.customerinfo.customer'
+src/com/loginuser/login.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/loginuser/login.java:16:	ClassNamingConventions:	ClassNamingConventions: The class name 'login' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/loginuser/login.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/com/loginuser/login.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'dis'
+src/com/loginuser/login.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/com/loginuser/login.java:17:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/com/loginuser/login.java:18:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/loginuser/login.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'req' is not assigned and could be declared final
+src/com/loginuser/login.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'res' is not assigned and could be declared final
+src/com/loginuser/login.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/com/loginuser/login.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/com/loginuser/login.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/loginuser/login.java:22:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/loginuser/login.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+src/com/loginuser/login.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'consumer_id' could be declared final
+src/com/loginuser/login.java:24:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'consumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/loginuser/login.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/com/loginuser/login.java:25:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/loginuser/login.java:25:	ShortVariable:	ShortVariable: Avoid variables with short names like a
+src/com/loginuser/login.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'session' could be declared final
+src/com/loginuser/login.java:31:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/com/loginuser/login.java:46:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/payment/paybill.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.servlet.annotation.*'
+src/com/payment/paybill.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.sql.*'
+src/com/payment/paybill.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.customerinfo.customer'
+src/com/payment/paybill.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/payment/paybill.java:16:	ClassNamingConventions:	ClassNamingConventions: The class name 'paybill' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/payment/paybill.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/com/payment/paybill.java:17:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/payment/paybill.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'req' is not assigned and could be declared final
+src/com/payment/paybill.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'res' is not assigned and could be declared final
+src/com/payment/paybill.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'h' could be declared final
+src/com/payment/paybill.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like h
+src/com/payment/paybill.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'items' could be declared final
+src/com/payment/paybill.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/com/payment/paybill.java:20:	ShortVariable:	ShortVariable: Avoid variables with short names like s
+src/com/payment/paybill.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/com/payment/paybill.java:21:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/payment/paybill.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like a
+src/com/payment/paybill.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'delete' could be declared final
+src/com/payment/paybill.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'disp' could be declared final
+src/com/payment/paybill.java:33:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/com/payment/paybill.java:39:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/payment/paybill.java:41:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/com/registeruser/register.java:2:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.*'
+src/com/registeruser/register.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.servlet.annotation.*'
+src/com/registeruser/register.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/registeruser/register.java:14:	ClassNamingConventions:	ClassNamingConventions: The class name 'register' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/com/registeruser/register.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/com/registeruser/register.java:17:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/registeruser/register.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'req' is not assigned and could be declared final
+src/com/registeruser/register.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'res' is not assigned and could be declared final
+src/com/registeruser/register.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'consumer_id' could be declared final
+src/com/registeruser/register.java:18:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'consumer_id' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/registeruser/register.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill_number' could be declared final
+src/com/registeruser/register.java:19:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'bill_number' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/registeruser/register.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'title' could be declared final
+src/com/registeruser/register.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'Name' could be declared final
+src/com/registeruser/register.java:21:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/registeruser/register.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/com/registeruser/register.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mobile' could be declared final
+src/com/registeruser/register.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userid' could be declared final
+src/com/registeruser/register.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/com/registeruser/register.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/com/registeruser/register.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/com/registeruser/register.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/com/registeruser/register.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like r
+src/com/registeruser/register.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'r1' could be declared final
+src/com/registeruser/register.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like r1
+src/com/registeruser/register.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'disp' could be declared final
+src/com/registeruser/register.java:49:	SystemPrintln:	SystemPrintln: Usage of System.out/err
